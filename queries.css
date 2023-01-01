@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+  .container {
+    margin: 24px 15px;
+  }
+
+  .nav {
+    margin-bottom: 118px;
+  }
+
+  .hero {
+    margin-bottom: 154px;
+    gap: 33px;
+  }
+
+  .hero-text h2 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-text {
+    width: 398px;
+  }
+
+  .girl-img {
+    width: 216px;
+  }
+
+  .course-hours {
+    font-size: 14px;
+  }
+
+  .course-number {
+    font-size: 32px;
+  }
+
+  .members {
+    font-size: 14px;
+  }
+
+  .members-number {
+    font-size: 32px;
+  }
+
+  .popular-courses {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 64px;
+  }
+
+  .popular-courses-para {
+    font-size: 16px;
+  }
+
+  .text-box {
+    font-size: 24px;
+    padding: 22px 30px 36px 26px;
+    border-radius: 12px;
+  }
+
+  .text-box p {
+    padding: 0;
+  }
+
+  .animation,
+  .design,
+  .photography,
+  .crypto,
+  .business {
+    width: 339px;
+  }
+
+  .popular-courses h4 {
+    font-size: 20px;
+  }
+
+  .skilled {
+    font-size: 28px;
+  }
+
+  .get-started {
+    padding: 12px 24px;
+  }
+
+  .absolute-box2 {
+    top: -56px;
+    right: 4px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 16px 16px;
+    padding: 0;
+  }
+
+  .hero-text {
+    margin-bottom: 100px;
+    width: 343px;
+  }
+
+  .absolute-box {
+    left: -6px;
+    bottom: 37px;
+    padding: 19px 43px 17px 22px;
+  }
+  .absolute-box2 {
+    top: 25px;
+    right: 2px;
+    padding: 12px 40px 19px 24px;
+  }
+
+  .nav {
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .nav img {
+    width: 90px;
+    height: 24px;
+  }
+
+  .nav-btn {
+    padding: 10px 18px;
+  }
+
+  .hero {
+    display: revert;
+    margin-bottom: 66px;
+  }
+
+  .girl-img {
+    margin-left: 60px;
+  }
+
+  .section-info {
+    margin-bottom: 80px;
+  }
+
+  .popular-courses {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+  }
+
+  .animation,
+  .design,
+  .photography,
+  .crypto,
+  .business {
+    box-shadow: none;
+  }
+  .check-out {
+    font-size: 24px;
+    padding: 24px 29px 32px 28px;
+    border-radius: 12px;
+  }
+
+  .skilled {
+    align-self: center;
+  }
+
+  .get-started {
+    font-size: 16px;
+  }
+}
